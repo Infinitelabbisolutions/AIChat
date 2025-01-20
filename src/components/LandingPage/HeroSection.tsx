@@ -67,7 +67,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onGetStarted, onDemoStart }) 
               onClick={onGetStarted}
               className="px-6 py-3 text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg hover:opacity-90 transition-opacity flex items-center gap-2"
             >
-              Começar Gratuitamente
+              Começar Agora
               <ArrowRight className="w-4 h-4" />
             </button>
             {onDemoStart && (
