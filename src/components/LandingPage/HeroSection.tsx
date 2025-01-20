@@ -54,8 +54,8 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onGetStarted, onDemoStart }) 
         <div className="text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
             Inteligência Artificial para{' '}
-            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent inline-block min-w-[200px]">
-              {currentText}
+            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent inline-block min-w-[200px] min-h-16">
+                            {currentText}
               <span className="animate-pulse">|</span>
             </span>
           </h1>
